@@ -1,0 +1,10 @@
+/* Add data-animate to elements that should be hidden until their
+   entrance animation reveals them with gsap autoAlpha.
+   This prevents a flash of content before JS runs.
+
+   Example in Webflow:
+     <section data-module="hero" data-animate>...</section>
+*/
+[data-animate] {
+  visibility: hidden;
+}

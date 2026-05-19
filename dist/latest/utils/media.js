@@ -1,0 +1,1 @@
+import"../chunk-7RTP2P7I.js";var e=()=>window.matchMedia("(prefers-reduced-motion: reduce)").matches,t=()=>window.matchMedia("(max-width: 1024px)").matches,o=()=>window.matchMedia("(max-width: 768px)").matches;export{o as isMobile,t as isTabletOrBelow,e as prefersReducedMotion};

@@ -1,0 +1,1 @@
+import"../chunk-7RTP2P7I.js";gsap.registerPlugin(ScrollTrigger);gsap.defaults({ease:"expo.out",duration:1.2});var e=window.matchMedia("(prefers-reduced-motion: reduce)").matches;var r=gsap;export{r as default,e as reduced};
